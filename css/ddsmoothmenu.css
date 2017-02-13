@@ -147,3 +147,25 @@ opacity: 0.5;
 }
 
 /* menu */
+
+.photo_add{
+top: 300px;
+margin: 20px 0 0 5px;
+padding: 0;
+list-style-type: none;
+}
+
+.photo_add a {
+	display: block;
+	height: 160px;
+	width: 160px; 
+	margin: 10px;
+	color: #333; 
+	position: relative;
+	display: inline;
+	top:0px;
+}
+
+.photo_add  a:hover {
+
+}

@@ -32,7 +32,7 @@ em { color: #ff0d40 }
 h1 { font-size:32px; margin-bottom: 20px; }
 h2 { font-size:28px; margin-bottom: 20px; }
 h3 { font-size:20px; margin-bottom: 20px; }
-h4 { font-size:18px; margin-bottom: 10px; }
+h4 { font-size:18px; }
 h5 { font-size:14px }
 h6 { font-size:12px }
 .header { display: block }
@@ -103,6 +103,21 @@ a.more {
 .no_bullet li { 
 	margin: 0 0 20px 0; 
 	padding: 0; 
+}
+
+.toRight{
+width:70%;
+text-align:right;
+float:right;
+}
+
+.toLeft{
+width:30%;
+float:left;
+}
+
+.toLeftAll{
+width:400px; 
 }
 
 #templatemo_body_wrapper {
