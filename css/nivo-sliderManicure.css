@@ -13,6 +13,7 @@
 /* The Nivo Slider styles */
 .nivoSlider {
 	position:relative;
+	margin:20px;
 }
 .nivoSlider img {
 	position:absolute;
@@ -78,7 +79,7 @@
 }
 /* Control nav styles (e.g. 1,2,3...) */
 .nivo-controlNav {
-width: 17%;
+width: 50%;
 height: 10px;
 background: URL(../images/button6.png);
 float:right;
