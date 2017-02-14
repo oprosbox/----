@@ -487,6 +487,19 @@ float: left;
 	margin: 0 30px 30px 0; 
 }
 
+#img_vita{
+margin:50px 0 0 5%;
+float:left;
+}
+
+#vitaSrc{
+margin:0 0 0 20px;
+}
+
+.betw_head_list{
+margin:10px 0 0 0;
+}
+
 .half { width: 455px }
 #sidebar, .col13 { width: 280px }
 #content, .col23 { width: 620px }

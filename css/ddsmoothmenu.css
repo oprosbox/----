@@ -22,7 +22,7 @@
 	display: block;
 	height: 30px;
 	width: 120px; 
-	margin-left: 5px;
+	margin-left: 20px;
 	line-height: 30px;
 	font-size: 13px;
 	font-family: Georgia, "Times New Roman", Times, serif;
@@ -53,7 +53,7 @@ background: url(../images/Gold_Button_003.png)
 .ddsmoothmenu ul li ul {
 	position: absolute;
 	width: 120px;	
-	margin: 0px 0 0 5px;
+	margin: 0 0 0 20px;
 	display: none; /*collapse all sub menus to begin with*/
 	visibility: hidden;
 	background: url(../images/templatemo_smm.png) repeat-y;
@@ -91,7 +91,7 @@ top: 0;
 	font-weight: 500;
 	width: 82px; /*width of sub menus*/
 	height: 30px;
-	margin: 0px 0 0 20px;
+	margin: 0 0 0 20px;
 	padding: 0px 20px;
 	line-height: 33px;
 	font-size: 12px;
@@ -107,7 +107,7 @@ top: 0;
 
 .ddsmoothmenu ul li ul li a.selected, .ddsmoothmenu ul li ul li a:hover {
 	color: #000;
-	margin: 0px 0 0 20px;
+	margin: 0 0 0 20px;
 	line-height: 33px;
 	font-size: 12px;
 	text-align: left;
