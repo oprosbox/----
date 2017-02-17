@@ -28,6 +28,11 @@ h1, h2, h3, h4, h5, h6 {
 	font: italic 140% serif,Helvetica,Arial,Verdana ;
 }
 
+.goldFon{
+background-color:rgba(254,241,129,0.3);
+padding:5%;
+}
+
 em { color: #ff0d40 }
 
 h1 { font-size:32px; margin-bottom: 20px; }
@@ -137,14 +142,29 @@ padding:15px 0 0 0;
 border-color:rgb(156,156,156);
 }
 
+.toLeftInfo{
+width:30%;
+float:left;
+padding:15px 0 0 0;
+}
+
+.toRightInfo{
+width:70%;
+text-align:left;
+float:right;
+padding:15px 0 0 0;
+}
+
 .toLeftAll{
 width:400px; 
-
+margin-left:auto;
+margin-right:auto;
 }
 
 .toLeftAllPrice{
 width:700px;
-margin-left: 100px; 
+margin-left:auto;
+margin-right:auto;
 }
 
 .photo_add{

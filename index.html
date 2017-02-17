@@ -1,10 +1,12 @@
 ﻿<html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
+<base href="" />
+<link rel="shortcut icon" href="favicon.png" type="image/png">
 <meta http-equiv="content-type" content="text/html;charset=utf-8" charset="utf-8" />
 <title>Салон красоты «Vita»</title>
 <meta name="description" content='стрижка, маникюр, педикюр, укладка, окраска волос, косметологический кабинет' />
-<meta name="keywords" content='Салон красоты, Viva, Новое поселение, парикмахерская, стрижка, педикюр, маникюр, укладка, окраска волос, косметологический кабинет' />
+<meta name="keywords" content='Салон красоты, Vita, Новое поселение, парикмахерская, стрижка, педикюр, маникюр, укладка, окраска волос, косметологический кабинет' />
 
 <link href="css/templatemo_style.css" rel="stylesheet" type="text/css" />
 <link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
@@ -22,10 +24,18 @@ ddsmoothmenu.init({
 })
 
 </script>
-<link rel="stylesheet" href="css/slimbox2.css" type="text/css" media="screen" /> 
+
+
 </head>
 
 <body>
+<script>
+$(document).ready(function()
+{$(".clGold").css("background-color","rgba(254,241,129,0.3)");
+$("#templatemo_slider").css("display","none");
+$("#templatemo_slider").slideDown(1000);
+})
+</script>
 <div id="templatemo_body_wrapper">
 <div id="templatemo_wrapper">
             <div id="templatemo_header"> 
@@ -60,12 +70,10 @@ ddsmoothmenu.init({
 		<div id="templatemo_slider">
            <div id="slider-wrapper">
                 <div id="slider" class="nivoSlider">
-                    <img src="images/slider/pricheska4.jpg" title=" Великолепные прически" />
-					<img src="images/slider/stigi1.jpg" title=" Замечательные стрижки" />
-                    <img src="images/slider/man1.jpg" title=" Красивый и модный маникюр" />
-					<img src="images/slider/shellak1.jpg" title=" Красивый и модный маникюр" />
-					<img src="images/slider/nogt2.jpg" title=" Наращивание ногтей любых форм" />
-					<img src="images/slider/man1.jpg" title=" Процедуры и ухода за кожей лица" />
+                    <img src="images/slider/slide_02.jpg" title="  &nbsp;&nbsp;&nbsp;&nbsp; Великолепные прически" />
+					<img src="images/slider/slide_01.jpg" title=" &nbsp;&nbsp;&nbsp;&nbsp; Наращивание ногтей" />
+                    <img src="images/slider/slide_03.jpg" title=" &nbsp;&nbsp;&nbsp;&nbsp; Shellak" />
+					<img src="images/slider/slide_04.jpg" title=" &nbsp;&nbsp;&nbsp;&nbsp; Модный дизайн на ногтях" />
                 </div>
             </div>
             <script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
@@ -87,13 +95,13 @@ ddsmoothmenu.init({
                 "Vita" - молодой и развивающийся салон, который следит за новыми веяниями в мире красоты.</h4>
 				<h2>Предлагаем услуги</h2>
 			
+			    <div class="clGold">
 				<h3>
-				<ul>
+				<ul id="listToFlesh">
 				<li class="betw_head_list">Стрижки</li>
 				<li class="betw_head_list">Окрашивание</li>
 				<li class="betw_head_list">Свадебные и вечерние прически</li>
 				<li class="betw_head_list">Наращивание волос</li>
-				<li class="betw_head_list">Наращивание ресниц</li>
 				<li class="betw_head_list">Ногтевой сервис
 				<ul>
 				<li class="betw_head_list">Наращивание ногтей</li>
@@ -105,6 +113,7 @@ ddsmoothmenu.init({
 				<li class="betw_head_list">Массаж</li>
 				</ul>
 				</h3></div>
+				</div>
 				
 				<div class="cleaner h40"></div>
 				<hr>
@@ -125,7 +134,7 @@ ddsmoothmenu.init({
 			
 				<a id="contact"></a>
 				<hr>
-				<h2>Контактная информация:</h2>
+				<h2 align="center">Контактная информация:</h2>
 				<div class="toLeftAll">
 				<h4 >
 				<div class="toLeft">
